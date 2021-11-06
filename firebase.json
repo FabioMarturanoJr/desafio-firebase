@@ -1,0 +1,19 @@
+{
+  "hosting": {
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "/fibonacci/:length",
+        "function": "app"
+      },
+      {
+        "source": "/fabioStreet",
+        "function": "app"
+      }
+    ]
+  }
+}
